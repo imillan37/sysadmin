@@ -1,0 +1,63 @@
+		-index
+
+		-show
+		-store 
+		-destroy
+		-update
+
+		+-----------+---------------------------------------+---------------------------------------+
+		| Metodo     |	URI									|	Accion								|
+		+------------+--------------------------------------+---------------------------------------+
+		|	GET		 |  users								|	UserController@index				|
+		|	GET		 |  users/{user}						| 	UserController@show					|
+		|	POST	 |	users								|	UserController@store				|
+		|	DELETE   |  users/{user}						|   Usercontroller@destroy				|
+		|	PUT|PATCH|	users/{user}						|	UserController@update				|
+		|	GET		 |  users/verify/{token}				|   Usercontroller@verify				|
+		 ___________________________________________________________________________________________
+		|																							|			
+		|solicitudes 																				|
+		|___________________________________________________________________________________________|
+		|	GET		 |  solicitudes							|	SolicitudController@index			|
+		|	GET		 |  solicitudes/{solicitud}				|	SolicitudController@show			|			
+		|	GET		 |  solicitudes    						|	SolicitudController@store			|			
+		|	DELETE	 |  solicitudes/{solicitud}				|	SolicitudController@destroy			|			
+		|	PUT|PATCH|  solicitudes/{solicitud}				|	SolicitudController@update			|			
+		 ___________________________________________________________________________________________
+		|																							|			
+		|miembros 																					|
+		|___________________________________________________________________________________________|
+		|	GET		 |  miembro							|	MiembroController@index					|
+		|	GET		 |  miembro/{Miembro}				|	MiembroController@show					|			
+		|	GET		 |  miembro    						|	MiembroController@store					|			
+		|	DELETE	 |  miembro/{Miembro}				|	MiembroController@destroy				|			
+		|	PUT|PATCH|  miembro/{Miembro}				|	MiembroController@update				|			
+		 ___________________________________________________________________________________________
+		|																							|			
+		|Capitulos 																					|
+		|___________________________________________________________________________________________|
+		|	GET		 |  Capitulo						|	CapituloController@index 				|
+		|	GET		 |  Capitulo/{Capitulo}				|	CapituloController@show					|			
+		|	GET		 |  Capitulo    					|	CapituloController@store				|			
+		|	DELETE	 |  Capitulo/{Capitulo}				|	CapituloController@destroy				|			
+		|	PUT|PATCH|  Capitulo/{Capitulo}				|	CapituloController@update				|			
+		 ___________________________________________________________________________________________
+		|																							|			
+		|Datos																						|
+		|___________________________________________________________________________________________|
+		|	GET		 |  Datos							|	DatosController@index 					|
+		|	GET		 |  Datos/{Datos}					|	DatosController@show					|			
+		|	GET		 |  Datos    						|	DatosController@store					|			
+		|	DELETE	 |  Datos/{Datos}					|	DatosController@destroy					|			
+		|	PUT|PATCH|  Datos/{Datos}					|	DatosController@update					|			
+		 ___________________________________________________________________________________________
+		|																							|			
+		|Region																						|
+		|___________________________________________________________________________________________|
+		|	GET		 |  Region							|	RegionController@index 					|
+		|	GET		 |  Region/{Region}					|	RegionController@show					|			
+		|	GET		 |  Region    						|	RegionController@store					|			
+		|	DELETE	 |  Region/{Region}					|	RegionController@destroy				|			
+		|	PUT|PATCH|  Region/{Region}					|	RegionController@update					|			
+		
+		
